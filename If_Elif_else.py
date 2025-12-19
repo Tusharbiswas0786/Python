@@ -17,7 +17,7 @@ elif(Marks >= 80 and Marks < 90):
     print("grade of the student is B")
 elif(Marks >= 70 and Marks < 80):
     print("grade of the student is C")
-elif(Marks < 70):
+else:
     print("grade of the student is D")
 
 
