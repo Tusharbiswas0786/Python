@@ -1,6 +1,6 @@
-print('Tushar') #first name
-print('Biswas') #last name
-print('Tushar','Biswas')
-print('Tushar Biswas','Tushar','Biswas', sep = ', ')
-"""so basically 
-i am learning python for the first time"""
+Number = int(input("Enter a number : "))
+
+if(Number % 2 == 0):
+    print("Number is even")
+else:
+    print("Number is odd")
