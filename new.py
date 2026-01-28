@@ -1,6 +1,7 @@
-Number = int(input("Enter a number : "))
+import numpy as np
+import pandas as pd
 
-if(Number % 2 == 0):
-    print("Number is even")
-else:
-    print("Number is odd")
+Array = [80,85,90,95,100,105]
+
+print(np.mean(Array))
+print(max(Array))
